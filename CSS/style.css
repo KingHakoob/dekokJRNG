@@ -1,0 +1,52 @@
+@font-face {
+    font-family: OldStandardTT;
+    src: url("../Assets/Fonts/OldStandardTT-Regular.ttf");
+}
+
+
+body {
+    background-image: url("../Assets/Images/vintage-american-background-transformed.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#notice {
+    font-family: OldStandardTT;
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+#nameOutput {
+    font-family: OldStandardTT;
+    text-align: center;
+    padding-top: 10rem;
+}
+
+#btnDiv {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+#getNameBtn {
+    font-family: OldStandardTT;
+    font-size: 1.5rem;
+    background-color: #DAAF5B;
+    color: black;
+    border: 0.1rem solid black;
+}
+
+#getNameBtn:hover {
+    background-color: black;
+    color: #DAAF5B;
+    border: 0.1rem solid #DAAF5B;
+}
+
+#prevNamesOutput {
+    font-family: OldStandardTT;
+    text-align: center;
+    padding-top: 5rem;
+}
