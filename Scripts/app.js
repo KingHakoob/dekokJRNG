@@ -20,7 +20,7 @@ getNameBtn.addEventListener('click', function () {
 })
 
 function GetName() {
-    fetch("../data/data.json").then(
+    fetch("./data/data.json").then(
         response => response.json())
         .then(data => {
             names = data.classNames;
